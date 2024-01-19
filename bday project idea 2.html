@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            color: black;
+        }
+
+        header {
+            background-color: #144d56;
+            color: #ecf0f1;
+            padding: 1em;
+            text-align: center;
+            box-shadow: 0 4px 6px -6px #000, 0 10px 50px 0 #782abd;
+        }
+
+        footer {
+            background-color: #144d56;
+            box-shadow: 0 4px 6px -6px #000, 0 -60px 500px 0 #6e00ce;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        main {
+            max-width: 1350px;
+            max-height: 330px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .section-container {
+            display: flex;
+            flex-direction: column;
+            height: 450px;
+            transition: transform 0.5s ease-in-out;
+            overflow: hidden;
+        }
+
+        .section {
+            flex: 0 0 100%;
+            box-sizing: border-box;
+            padding: 13px;
+            transition: transform 0.5s ease-in-out;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .template-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: bottom;
+        }
+
+        .template-card {
+            text-align: center;
+            margin: 15px;
+            padding: 40px;
+            /* Adjusted padding for medium size */
+            background: rgb(42, 156, 187);
+            border-radius: 25px;
+            cursor: pointer;
+            transition: transform 0.5s;
+            box-sizing: border-box;
+            width: 25%;
+            height: 90%;
+            /* Set the width to 48% to leave space between cards */
+        }
+
+        .template-card:hover {
+            transform: scale(1.05);
+        }
+
+
+        .main {
+            cursor: pointer;
+            transition: transform 0.5s;
+            box-shadow: 0 4px 6px -6px #000, 0 10px 80px 0 #00ff80;
+        }
+
+        .main:hover {
+            transform: scale(1.05);
+        }
+
+        .wish-content {
+            margin-top: 10px;
+            font-style: italic;
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin: 10px 23px;
+        }
+    </style>
+    <title>Personalized Birthday Cards</title>
+</head>
+
+<body>
+    <header>
+        <h1>Birthday Card Creator</h1>
+    </header>
+
+    <main class="main">
+        <div class="section-container" id="sections-container">
+            <section class="section" id="template-selection">
+                <h2>Choose a Template</h2>
+                <div class="template-container">
+                    <div class="template-card">
+                        <p class="wish-content">Wish 1: May your day be filled with joy and laughter!</p>
+                    </div>
+                    <div class="template-card">
+                        <p class="wish-content">Wish 2: Wishing you a year ahead filled with love and success!</p>
+                    </div>
+                </div>
+                <!-- Add more templates as needed -->
+            </section>
+
+            <!-- Remove customization-options section -->
+
+            <!-- Remove preview-and-edit section -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Birthday Card Creator</p>
+    </footer>
+</body>
+
+</html>
