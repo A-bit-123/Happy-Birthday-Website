@@ -1,0 +1,57 @@
+
+
+body {
+    margin: 0%;
+}
+
+
+
+.upper {
+    background-color: #000;
+    height: 4rem;
+    width: 100%;
+    margin: 0 0;
+    
+ 
+
+  
+  
+    
+
+} 
+
+.mid{
+    background-color: #000;
+    height: 28rem;
+    width: 100%;
+
+}
+
+.lower {
+    background-color: #000;
+    height: 4rem;
+    width: 100%;
+    
+
+}
+
+
+  
+.neon-text {
+    color: yellow;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #0fa,
+    0 0 30px #0fa,
+    0 0 30px #0fa,
+    0 0 7px #0fa,
+    0 0 7px #0fa;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 3.5rem;
+  
+    
+}
